@@ -28,6 +28,7 @@ This project performs **automated extraction of mental-state, symptom, food and 
 ## 📂 Project Structure
 
 ashwam_project/
+
 ├─ src/
 │ ├─ extractor.py # Rule-based extraction logic
 │ ├─ scorer.py # Evaluation metrics (PRF1 + polarity + buckets)
@@ -176,7 +177,7 @@ TP = 2, FP = 0, FN = 0
 Precision = 2/2 = 1.0
 Recall = 2/2 = 1.0
 F1 = 1.0
-
+GitHub Link: https://github.com/deepakreddy1616/ashwam-ml-ai-intern-deepakreddy-chelladi
 
 👤 Author
 
