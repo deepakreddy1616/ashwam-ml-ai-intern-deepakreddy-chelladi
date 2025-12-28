@@ -45,7 +45,7 @@ ashwam_project/
 ````md
 ---
 
-## 🛠️ Installation & Running the Project
+**## 🛠️ Installation & Running the Project**
 
 ### 1️⃣ Install Dependencies
 pip install jsonlines
@@ -62,8 +62,8 @@ python src/run.py --data ./data --out ./out
 | `out/per_journal_scores.jsonl` | Journal-level breakdown |
 
 ---
-
-## 🧾 JSON Output Schema (IMPORTANT 🔥)
+**
+## 🧾 JSON Output Schema (IMPORTANT 🔥)**
 
 Each record in `predictions.jsonl` follows:
 
@@ -81,7 +81,7 @@ Each record in `predictions.jsonl` follows:
     }
   ]
 }
-⚠️ STRICT RULE:
+**⚠️ STRICT RULE:**
 evidence_span must be a literal substring present in journal text → ❌ NO hallucinated text.
 
 🧩 Extraction Approach (How It Works)
@@ -97,13 +97,13 @@ if "felt low-energy" in text:
 
 When matched → an object is appended to items[] with correct domain + polarity + buckets
 
-Why rule-based?
+**Why rule-based?**
 ✔ Fully deterministic
 ✔ Always grounded in text
 ✔ No hallucinations
 ✔ Ideal for controlled evaluation
-
-📏 Evaluation Design (Metrics Explained)
+**
+📏 Evaluation Design (Metrics Explained)**
 Metric	Meaning
 Precision	% of predicted spans that were correct
 Recall	% of gold spans successfully found
@@ -124,7 +124,7 @@ False Negative (missed label)
 
 🧪 Example – How System Extracts
 
-📜 Input Journal:
+**📜 Input Journal:**
 
 After eating, I got super sleepy and my stomach felt bloated.
 
@@ -148,7 +148,7 @@ After eating, I got super sleepy and my stomach felt bloated.
   }
 ]
 
-⚠️ Failure Analysis – Where System May Fail
+**⚠️ Failure Analysis – Where System May Fail**
 Issue	Example
 Synonym variation	“felt exhausted” ≠ “super sleepy”
 Unicode punctuation	— vs - may break matching
@@ -157,12 +157,12 @@ Conceptual inference	System cannot infer “tired” if not explicitly written
 
 💡 Future improvement → Use ML model (NER or transformer) instead of static rules.
 
-🏁 Conclusion
+**🏁 Conclusion**
 
 This project demonstrates a complete functional extraction + scoring pipeline used in ML evaluation environments — ensuring no-hallucination, evidence-grounded, measurable results.
 
-## 🧪 Mock Evaluation – Example 
-
+**## 🧪 Mock Evaluation – Example 
+**
 Example Journal:
 "Had oats with banana and walnuts. Mentally I was ruminating about work; couldn't stop replaying a conversation."
 
@@ -178,9 +178,10 @@ TP = 2, FP = 0, FN = 0
 Precision = 2/2 = 1.0
 Recall = 2/2 = 1.0
 F1 = 1.0
+
 GitHub Link: https://github.com/deepakreddy1616/ashwam-ml-ai-intern-deepakreddy-chelladi
 
-👤 Author
+**👤 Author**
 
 🧑 Deepak Reddy Chelladi
 🎓 B.Tech – Information Technology – 2025
