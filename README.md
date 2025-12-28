@@ -48,7 +48,7 @@ ashwam_project/
 **## 🛠️ Installation & Running the Project**
 
 ### 1️⃣ Install Dependencies
-pip install jsonlines
+pip install -r requirements.txt
 
 ### 2️⃣ Run Extraction + Evaluation
 Navigate inside project folder and run:
