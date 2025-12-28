@@ -24,8 +24,7 @@ This project performs **automated extraction of mental-state, symptom, food and 
 | 🧱 Approach | Fully deterministic, rule-based system |
 
 ---
-
-**
+````md
 📂 Project Structure
 
 ashwam_project/
@@ -42,7 +41,8 @@ ashwam_project/
 │ └─ per_journal_scores.jsonl
 ├─ availability_note.txt
 └─ README.md
-**
+
+````md
 ---
 
 ## 🛠️ Installation & Running the Project
