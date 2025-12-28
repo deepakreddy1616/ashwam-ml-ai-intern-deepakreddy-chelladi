@@ -25,6 +25,8 @@ This project performs **automated extraction of mental-state, symptom, food and 
 
 ---
 
+
+
 ## 📂 Project Structure
 
 ashwam_project/
@@ -41,6 +43,9 @@ ashwam_project/
 │ ├─ score_summary.json # Overall results
 │ └─ per_journal_scores.jsonl # Breakdown TP/FP/FN per journal
 └─ README.md
+
+
+
 
 ---
 
