@@ -25,8 +25,9 @@ This project performs **automated extraction of mental-state, symptom, food and 
 
 ---
 
-🎯 After Fix — It Should Look Like This:
+**
 📂 Project Structure
+
 ashwam_project/
 ├─ src/
 │ ├─ extractor.py
@@ -41,6 +42,7 @@ ashwam_project/
 │ └─ per_journal_scores.jsonl
 ├─ availability_note.txt
 └─ README.md
+**
 ---
 
 ## 🛠️ Installation & Running the Project
