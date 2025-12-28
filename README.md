@@ -25,43 +25,6 @@ This project performs **automated extraction of mental-state, symptom, food and 
 
 ---
 
-## 📂 Project Structure
-
-ashwam_project/
-├─ src/
-│ ├─ extractor.py
-│ ├─ scorer.py
-│ └─ run.py
-├─ data/
-│ ├─ journals.jsonl
-│ └─ gold.jsonl
-├─ out/
-│ ├─ predictions.jsonl
-│ ├─ score_summary.json
-│ └─ per_journal_scores.jsonl
-├─ availability_note.txt
-└─ README.md
-
-yaml
-Copy code
-
----
-
-# ⚠ IMPORTANT — GitHub Rule
-GitHub **only understands code blocks when formatting is like this:**
-
-(3
-Copy code
-your tree content
-``` (3 backticks)
-☝️ If even 1 backtick is missing → formatting breaks → becomes one line (which is what you're seeing).
-
-🛠️ How To Fix Quickly
-1️⃣ Click EDIT on README
-2️⃣ DELETE the current messy line
-3️⃣ PASTE the block above exactly
-4️⃣ Click Commit changes
-
 🎯 After Fix — It Should Look Like This:
 📂 Project Structure
 ashwam_project/
