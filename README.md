@@ -25,26 +25,22 @@ This project performs **automated extraction of mental-state, symptom, food and 
 
 ---
 
-
-
 ## 📂 Project Structure
 
 ashwam_project/
-
-├─ src/
-│ ├─ extractor.py # Rule-based extraction logic
-│ ├─ scorer.py # Evaluation metrics (PRF1 + polarity + buckets)
-│ └─ run.py # CLI orchestrator – runs extraction + scoring
-├─ data/
-│ ├─ journals.jsonl # Input user journal dataset
-│ └─ gold.jsonl # Annotated reference labels
-├─ out/
-│ ├─ predictions.jsonl # Generated model predictions
-│ ├─ score_summary.json # Overall results
-│ └─ per_journal_scores.jsonl # Breakdown TP/FP/FN per journal
-└─ README.md
-
-
+ ├─ src/
+ │   ├─ extractor.py
+ │   ├─ scorer.py
+ │   └─ run.py
+ ├─ data/
+ │   ├─ journals.jsonl
+ │   └─ gold.jsonl
+ ├─ out/
+ │   ├─ predictions.jsonl
+ │   ├─ score_summary.json
+ │   └─ per_journal_scores.jsonl
+ ├─ availability_note.txt
+ └─ README.md
 
 
 ---
